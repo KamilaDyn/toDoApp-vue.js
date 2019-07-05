@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+babel.config.js
 # /dist
 
 # local env files
