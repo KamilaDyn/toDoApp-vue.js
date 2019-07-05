@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "toDoApp-vue.js"
+  publicPath: process.env.NODE_ENV === "production" ? "/toDoApp-vue.js/" : "/"
 };
